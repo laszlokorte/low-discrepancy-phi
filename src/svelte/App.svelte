@@ -183,7 +183,7 @@
 					svgWidth.value / 2,
 					i / samples.length,
 				)}
-				fill="hsl({360 * (i / samples.length)},100%,50%)"
+				fill="hsl({360 * (s / 2)},100%,50%)"
 				cy={-(s / 2) * svgHeight.value * 0.6 + 0.2}
 			></circle>
 		{/each}
@@ -200,7 +200,8 @@
 					svgWidth.value / 2,
 					i / samples.length,
 				)}
-				fill="hsl({360 * (s / 2)},0%,{(0.5 + s / 2) * 80 + 10}%)"
+				fill="hsl({360 * (i / samples.length)},0%,{(0.5 + s / 2) * 80 +
+					10}%)"
 			></rect>
 			<rect
 				width={svgWidth.value / samples.length}
