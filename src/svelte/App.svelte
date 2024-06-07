@@ -124,7 +124,7 @@
 			<button onclick={() => (slope.value = PHI)}>ϕ</button>
 			<button onclick={() => (slope.value = 1 / PHI)}>1/ϕ</button>
 			<button onclick={() => (slope.value = 2 * PHI)}>ϕ</button>
-			<button onclick={() => (slope.value = Math.PI * ϕ)}
+			<button onclick={() => (slope.value = Math.PI * PHI)}
 				>π&centerdot;ϕ</button
 			>
 			<button onclick={() => (slope.value = PHI * PHI)}
